@@ -1,5 +1,5 @@
 services:
-  scraibe:
+  scraibe-webui:
     build:
       context: .. # Build context is the parent directory
       dockerfile: ./Dockerfile # Path to the Dockerfile

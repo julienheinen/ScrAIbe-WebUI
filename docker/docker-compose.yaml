@@ -1,5 +1,5 @@
 services:
-  scraibe:
+  scraibe-webui:
     image: hadr0n/scraibe-webui:latest
     container_name: scraibe-webui
     ports:

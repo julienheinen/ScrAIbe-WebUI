@@ -1,8 +1,8 @@
 services:
-  scraibe:
+  scraibe-webui:
     extends: 
       file: docker-compose.yaml
-      service: scraibe
+      service: scraibe-webui
     deploy:
       resources:
         reservations:
